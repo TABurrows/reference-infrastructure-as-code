@@ -6,7 +6,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "server_instance" {
-    name            = var.server_instance_name
+    name            = var.instance_name
     machine_type    = "e2-small"
     metadata = {
         enable-oslogin = "TRUE"
