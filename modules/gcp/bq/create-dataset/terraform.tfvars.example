@@ -1,0 +1,12 @@
+# A sample terraform.tfvars file 
+project_name = "project-name-here"
+preferred_region = "preferred-region"
+preferred_zone = "preferred-zone"
+dataset_id = "dataset_id_value"
+friendly_name = "dataset_friendly_name_value"
+dataset_description = "Description of the dataset to be created"
+dataset_location = "EU" # An example of the dataset location in the EU
+labels = { 
+    "creator" = "creatorsname",
+    "department" = "departmentname"
+}
